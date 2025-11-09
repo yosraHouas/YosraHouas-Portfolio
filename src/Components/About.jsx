@@ -122,8 +122,8 @@ export default function About() {
                 }}
               >
                 <a
-                  href="yosraHouas_CV_2025.pdf"
-                  download="Now_yosraHouas_CV_2025.pdf"
+                  href="yosraHouas_AP_CV_2025.pdf"
+                  download="Now_yosraHouas_AP_CV_2025.pdf"
                   className="neno-button text-[18px] bg-black text-textNude py-3 px-4 rounded-full sm:w-full w-auto sm:mt-2"
                   style={{
                     display: "block",
