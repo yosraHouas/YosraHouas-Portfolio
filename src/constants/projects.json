@@ -1,0 +1,246 @@
+[
+      {
+    "id": "1",
+    "title": "StockPro",
+    "description": "Application web de gestion complète des stocks et de l’inventaire, aidant les entreprises à gérer les produits, les stocks dans plusieurs entrepôts, les commandes fournisseurs et les mouvements de stock. Offre une traçabilité totale et une visibilité des stocks en temps réel.",
+    "technologies": [
+      { "name": "TypeScript", "image": "logo_Technologies/typescript.png" },
+      { "name": "PLpgSQL", "image": "logo_Technologies/PostgresSQL.png" },
+      { "name": "React", "image": "logo_Technologies/react.png" },
+      { "name": "Vite", "image": "logo_Technologies/vite.png" },
+      { "name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png" }
+    ],
+    "thumbnail": "projects/StockPro.gif",
+     "github": "https://github.com/yosraHouas/StockPro/",
+    "deployed": "https://yosrahouas.github.io/StockPro/",
+    "date": "nov 2025"
+  },
+  {
+    "id": "2",
+    "title": "DayPlanner",
+    "description": "Application web de planification intelligente permettant d’organiser sa journée, gérer les priorités, visualiser les tâches et suivre le temps de travail en temps réel. Réalisée avec React + Vite.",
+    "technologies": [
+      { "name": "React", "image": "logo_Technologies/react.png" },
+      { "name": "Vite", "image": "logo_Technologies/vite.png" },
+      { "name": "TypeScript", "image": "logo_Technologies/typescript.png" },
+      { "name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png" }
+    ],
+    "thumbnail": "projects/DayPlanner.gif",
+    "github": "https://github.com/yosraHouas/DayPlanner/",
+    "deployed": "https://yosrahouas.github.io/DayPlanner/",
+    "date": "nov 2025"
+  },
+  {
+    "id": "3",
+    "title": "YosraHouas-Portfolio",
+    "description": "portfolio Réalisé avec React.js, Vite, Tailwind CSS et JavaScript, ce portfolio offre une présentation de mes travaux. De plus, cette application permet également aux utilisateurs de m'envoyer un email directement à partir de site.",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Vite", "image": "logo_Technologies/vite.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Email.js", "image": "logo_Technologies/emailjs.png"},
+      {"name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png"}
+    ],
+    "thumbnail": "projects/YosraHouas-Portfolio.gif",
+    "github": "https://github.com/yosraAP/YosraHouas-Portfolio",
+    "deployed": "https://yosraap.github.io/YosraHouas-Portfolio/",
+    "date": "févr 2024"
+  },
+  {
+    "id": "4",
+    "title": "PolyKnowledge-Quiz",
+    "description": "une application de quiz dynamique avec ReactJS, TypeScript, et Styled Components !",
+    "technologies": [
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "ReactJS", "image": "logo_Technologies/react.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/PolyKnowledge-Quiz.gif",
+    "github": "https://github.com/yosraAP/PolyKnowledge-Quiz",
+    "deployed": "https://yosraap.github.io/PolyKnowledge-Quiz/",
+    "date": "Jan 2024"
+  },
+  {
+    "id": "5",
+    "title": "Shade-Sweep-Generator",
+    "description": "Application vous aide à générer un dégradé de couleurs linéaire pouvant comporter jusqu'à six couleurs. Choisissez simplement les couleurs souhaitées et récupérez la syntaxe CSS pour votre projet. Vite + React , Tailwind CSS ,Redux Toolkit ",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Vite", "image": "logo_Technologies/vite.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Tailwind CSS", "image": "logo_Technologies/tailwindcss.png"},
+      {"name": "Redux Toolkit", "image": "logo_Technologies/redux.png"}
+    ],
+    "thumbnail": "projects/Shade-Sweep-Generator.gif",
+    "github": "https://github.com/yosraAP/Shade-Sweep-Generator",
+    "deployed": "https://yosraap.github.io/Shade-Sweep-Generator/",
+    "date": "Dec 2023"
+  },
+  {
+    "id": "6",
+    "title": "Pomodoro-Timer",
+    "description": "Application qui s'appuie sur la célèbre technique Pomodoro pour favoriser la gestion du temps. Développée avec React et stylisée avec CSS.",
+    "technologies": [
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/pomodoro_timer.gif",
+    "github": "https://github.com/yosraAP/pomodoro-react",
+    "deployed": "https://yosraap.github.io/pomodoro-react/",
+    "date": "Sep 2023"
+  },
+  {
+    "id": "7",
+    "title": "Eco_Nett_React",
+    "description": "Application web multilingue pour une entreprise de ménage en utilisant JavaScript, React, Bootstrap et Email.js peut être une excellente idée pour améliorer l'efficacité et l'accessibilité de l'entreprise.",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "React", "image": "logo_Technologies/react.png"},
+      {"name": "Email.js", "image": "logo_Technologies/emailjs.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"},
+      {"name": "SCSS", "image": "logo_Technologies/scss.png"}
+    ],
+    "thumbnail": "projects/Eco_Nett.gif",
+    "github": "https://github.com/yosraAP/eco_nett_react",
+    "deployed":"https://yosraap.github.io/Demo_App_EcoNett/",
+    "date": "Août 2023"
+  },
+  {
+    "id": "8",
+    "title": "Covoiturage_BdeB",
+    "description":"Solution pratique et écologique. Que vous soyez étudiant, enseignant ou membre du personnel, notre plateforme vous permettra de trouver des covoiturages pour vos déplacements.",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/java.png"},
+      {"name": "Spring", "image": "logo_Technologies/spring.png"},
+      {"name": "Hibernate", "image": "logo_Technologies/hibernate.png"},
+      {"name": "Thymeleaf", "image": "logo_Technologies/thymeleaf.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/Covoiturage_BdeB.gif",
+    "github": "https://github.com/yosraAP/covoiturage_BdeB_Spring",
+    "deployed": "https://yosraap.github.io/Demo_Covoiturage_BdeB_Spring/",
+    "date": "Juin 2023"
+  },
+  {
+    "id": "9",
+    "title": "Quiz-app-Angular",
+    "description": "Cette application est un quiz basique développé avec Angular, utilisant principalement TypeScript pour la logique, SCSS pour les styles, HTML pour la structure et une petite portion de JavaScript pour les fonctionnalités supplémentaires. ",
+    "technologies": [
+      {"name": "Angular", "image": "logo_Technologies/angular.png"},
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/QuizApp.gif",
+    "github": "https://github.com/yosraAP/quiz-app-angular",
+    "deployed": "https://yosraap.github.io/quiz-app-angular/",
+    "date": "Mars 2023"
+  },
+  {
+    "id": "10",
+    "title": "weather-app_API",
+    "description": "L'application permet aux utilisateurs de vérifier la météo dans le monde entier ainsi que dans leur localisation actuelle. Elle offre également la possibilité d'afficher la température en Fahrenheit ou Celsius.",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Axios", "image": "logo_Technologies/axios.png"},
+      {"name": "HTML5", "image": "logo_Technologies/html.png"},
+      {"name": "CSS3", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/weather-app_API.gif",
+    "github": "https://github.com/yosraAP/weather-app_API",
+    "deployed": " https://yosraap.github.io/weather-app_API/",
+    "date": "févr 2023"
+  },
+  {
+    "id": "11",
+    "title": "Plat-Express-Angular",
+    "description": "Solution pour la commande de repas en ligne. Conçue pour simplifier votre expérience culinaire, cette application se distingue par son interface utilisateur intuitive et sa réactivité, réalisées grâce à l'intégration d'Angular et Bootstrap.",
+    "technologies": [
+      {"name": "TypeScript", "image": "logo_Technologies/typescript.png"},
+      {"name": "Angular", "image": "logo_Technologies/angular.png"},
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/PlatExpress.png",
+    "github": "https://github.com/yosraAP/PlatExpress_Angular",
+    "deployed": "https://yosraap.github.io/PlatExpress_Angular/",
+    "date": "Jan 2023"
+  }, 
+  {
+    "id": "12",
+    "title": "RentCar-Spring",
+    "description": "Application de location de voitures basée sur Spring Boot java Hibernate et Thymeleaf . Les fonctionnalités clés de notre application incluent la recherche et la réservation de voitures disponibles et la gestion des réservations .",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/java.png"},
+      {"name": "Hibernate", "image": "logo_Technologies/hibernate.png"},
+      {"name": "Spring Boot", "image": "logo_Technologies/spring.png"},
+      {"name": "Thymeleaf", "image": "logo_Technologies/thymeleaf.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/RentCar_App.gif",
+    "github": "https://github.com/yosraAP/RentCar",
+    "deployed": "https://yosraap.github.io/RentCar-Demo/",
+    "date": "Déc 2022"
+  },
+  {
+    "id": "13",
+    "title": "TechSphere",
+    "description": "Application e-commerce conçue pour les passionnés de technologie qui recherchent les dernières innovations. Réalisée à l'aide de Servlets, JSP, Bootstrap, CSS, Java et MySQL.",
+    "technologies": [
+      {"name": "Java", "image": "logo_Technologies/javaServlet.png"},
+      {"name": "JSP", "image": "logo_Technologies/jsp.png"},
+      {"name": "MySQL", "image": "logo_Technologies/mysql.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/TechnoSphere.gif",
+    "github": "https://github.com/yosraAP/TechSphere_codeSource",
+    "deployed": "https://yosraap.github.io/TechSphere-DemoVideo/",
+    "date": "Nov 2022"
+  },
+  {
+    "id": "14",
+    "title": "Filterify-Shop-app",
+    "description": "Ceci est une application de commerce électronique avec filtres de produits, construite avec HTML, CSS et JavaScript.",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"}
+    ],
+    "thumbnail": "projects/Filterify-Shop-app.gif",
+    "github": "https://github.com/yosraAP/Filterify-Shop-app",
+    "deployed": "https://yosraap.github.io/Filterify-Shop-app/",
+    "date": "Sept 2022"
+  },
+  {
+    "id": "15",
+    "title": "Weather-app-json",
+    "description": "Accédez aux prévisions météo pour les 3, 7 ou 14 jours suivants. Découvrez les statistiques clés pour le mois en cours ou à venir. Conçue avec JavaScript, HTML5, CSS3 et Bootstrap",
+    "technologies": [
+      {"name": "JavaScript", "image": "logo_Technologies/js.png"},
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/Weather-app-json.gif",
+    "github": "https://github.com/yosraAP/Weather-app-json",
+    "deployed": "https://yosraap.github.io/Weather-app-json/",
+    "date": "juil 2022"
+  },
+  {
+    "id": "16",
+    "title": "Site ComparIDE",
+    "description": "Choisissez l'IDE idéal avec facilité : comparez, téléchargez et codez. Notre site, élaboré avec HTML, CSS, JavaScript et Bootstrap, est votre partenaire de développement.",
+    "technologies": [
+      {"name": "HTML", "image": "logo_Technologies/html.png"},
+      {"name": "CSS", "image": "logo_Technologies/css.png"},
+      {"name": "Bootstrap", "image": "logo_Technologies/bootstrap.png"}
+    ],
+    "thumbnail": "projects/SiteComparatif.gif",
+    "github": "https://github.com/yosraAP/AppComparIDE",
+    "deployed": "https://yosraap.github.io/AppComparIDE/",
+    "date": "Mai 2022"
+  }
+]

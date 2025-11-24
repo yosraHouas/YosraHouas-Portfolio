@@ -1,0 +1,187 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root{
+  --colorProgressBar:linear-gradient(to right,hsla(199, 62%, 23%, 0.628),hsl(257, 66%, 14%),hsl(296, 17%, 47%));
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+
+.btnCV {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+}
+
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Loading.css */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+
+.spinner-grow {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: rgb(137, 99, 140);
+  position: relative;
+  animation: spinner-grow-animation 1.5s infinite ease-in-out;
+}
+
+@keyframes spinner-grow-animation {
+  0%, 100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+.circle1 {
+  animation-delay: -0.5s;
+}
+
+.circle2 {
+  animation-delay: -0.25s;
+}
+
+.circle3 {
+  animation-delay: 0s;
+}
+
+
+
+.glow{
+    transition: all 0.3s ease-in-out;
+}
+
+.glow:hover{
+    box-shadow:0 0 25px rgba(11, 11, 11, 0.361);
+}
+
+.img_glow_circle{
+    box-shadow:0 0 80px rgb(0, 0, 0);
+} 
+
+li:hover{
+    color:rgb(137, 99, 140) ;
+}
+
+@keyframes spin-vertical {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-vertical {
+    animation:spin-vertical 2.1s linear infinite;
+  }
+
+  .neno-button{
+    transform: all 0.3s ease-in-out;
+  }
+  .neno-button:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.275);
+  }
+  
+  
+  .title {
+    position: relative;
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .title::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 90px;
+    border-bottom: 4px solid rgb(137, 99, 140);
+  }
+
+  @media (max-width: 400px) {
+    .btnCV {
+      width: 120px;
+      font-size: 0.8rem;
+      margin: 20px;
+      padding: 9px 18px;
+    }
+    
+  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    cursor: crosshair;
+  }
+}
